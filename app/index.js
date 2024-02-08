@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const port = process.env.PORT || 3000; // Port number can be customized
 const cors = require('cors');
 
-const userRouter = require('./routes/users.routes');
-const productRouter = require('./routes/product.routes');
+const userRouter = require('../routes/users.routes');
+const productRouter = require('../routes/product.routes');
 app.use(express.json()); // Middleware to parse JSON request bodies
 
 // Define routes here
