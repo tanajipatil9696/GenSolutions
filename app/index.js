@@ -23,3 +23,5 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use('/users', userRouter);
 app.use('/products', productRouter);
+
+module.exports = app;
